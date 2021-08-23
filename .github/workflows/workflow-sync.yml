@@ -25,4 +25,4 @@ jobs:
           DRY_RUN: ${{ env.DRY_RUN }}
           REPOSITORIES: ${{ env.REPOSITORIES }}
           WORKFLOW_FILES: ${{ env.WORKFLOW_FILES }}
-          GITHUB_TOKEN: ${{ secrets.gh-workflow-sync }}
+          GITHUB_TOKEN: ${{ gh-workflow-sync }}
