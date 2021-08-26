@@ -9,8 +9,8 @@ env:
   REPOSITORIES: |
     bd-R-testing-org/repo2
   WORKFLOW_FILES: |
-    .gitignore=.github/
-    LICENSE
+    .gitignore=.github/workflows/
+    LICENSE=.github/workflows/
     README.md
 
 jobs:
